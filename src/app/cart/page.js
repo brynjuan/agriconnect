@@ -262,7 +262,7 @@ const CartPage = () => {
       <section className="relative bg-gradient-to-b from-green-50 to-stone-100 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1920&auto=format&fit=crop"
+            src="https://images.unsplash.com/photo-1716524875766-fdebfb275fd3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Latar belakang keranjang belanja"
             fill
             className="object-cover object-center opacity-10"
