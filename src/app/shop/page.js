@@ -333,7 +333,7 @@ export default function ShopPage() {
                   key={product.id}
                   className="group bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-all duration-300"
                 >
-                  <Link href={`/product/${product.id}`}>
+                  <Link href={`/shop/${product.id}/product`}>
                     <div className="relative aspect-square">
                       <Image
                         src={getImageUrl(product)}
@@ -353,7 +353,7 @@ export default function ShopPage() {
                     </div>
                   </Link>
                   <div className="p-3">
-                    <Link href={`/product/${product.id}`}>
+                    <Link href={`/shop/${product.id}/product`}>
                       <h3 className="text-sm font-medium text-gray-900 group-hover:text-blue-600 transition-colors duration-200 line-clamp-2">
                         {product.name}
                       </h3>
